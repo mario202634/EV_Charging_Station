@@ -1,0 +1,19 @@
+{
+    "logs": [
+        {
+            "outputFile": "com.ev_charging_station_finder_1_0.app-mergeDebugResources-27:/values-id/values-id.xml",
+            "map": [
+                {
+                    "source": "C:\\Users\\MARIO\\.gradle\\caches\\transforms-3\\4672d25836730679b75344d00501e79e\\transformed\\jetified-zxing-android-embedded-4.3.0\\res\\values-id\\values-id.xml",
+                    "from": {
+                        "startLines": "2,3,4,5",
+                        "startColumns": "4,4,4,4",
+                        "startOffsets": "55,114,161,293",
+                        "endColumns": "58,46,131,108",
+                        "endOffsets": "109,156,288,397"
+                    }
+                }
+            ]
+        }
+    ]
+}

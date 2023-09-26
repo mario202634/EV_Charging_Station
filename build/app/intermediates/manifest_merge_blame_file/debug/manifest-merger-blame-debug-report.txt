@@ -1,0 +1,443 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.ev_charging_station_finder_1_0"
+4    android:versionCode="1"
+5    android:versionName="1.0.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="21"
+9        android:targetSdkVersion="33" />
+10    <!--
+11         The INTERNET permission is required for development. Specifically,
+12         the Flutter tool needs it to communicate with the running application
+13         to allow setting breakpoints, to provide hot reload, etc.
+14    -->
+15    <uses-permission android:name="android.permission.INTERNET" />
+15-->D:\GP\Project\ev_charging_station_finder_1_0\android\app\src\debug\AndroidManifest.xml:7:5-66
+15-->D:\GP\Project\ev_charging_station_finder_1_0\android\app\src\debug\AndroidManifest.xml:7:22-64
+16    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+16-->D:\GP\Project\ev_charging_station_finder_1_0\android\app\src\main\AndroidManifest.xml:4:5-79
+16-->D:\GP\Project\ev_charging_station_finder_1_0\android\app\src\main\AndroidManifest.xml:4:22-76
+17    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+17-->D:\GP\Project\ev_charging_station_finder_1_0\android\app\src\main\AndroidManifest.xml:5:5-81
+17-->D:\GP\Project\ev_charging_station_finder_1_0\android\app\src\main\AndroidManifest.xml:5:22-78
+18    <uses-permission android:name="android.permission.CAMERA" />
+18-->[:flutter_qr_bar_scanner] D:\GP\Project\ev_charging_station_finder_1_0\build\flutter_qr_bar_scanner\intermediates\merged_manifest\debug\AndroidManifest.xml:9:5-65
+18-->[:flutter_qr_bar_scanner] D:\GP\Project\ev_charging_station_finder_1_0\build\flutter_qr_bar_scanner\intermediates\merged_manifest\debug\AndroidManifest.xml:9:22-62
+19
+20    <uses-feature
+20-->[:flutter_qr_bar_scanner] D:\GP\Project\ev_charging_station_finder_1_0\build\flutter_qr_bar_scanner\intermediates\merged_manifest\debug\AndroidManifest.xml:11:5-13:35
+21        android:name="android.hardware.camera.autofocus"
+21-->[:flutter_qr_bar_scanner] D:\GP\Project\ev_charging_station_finder_1_0\build\flutter_qr_bar_scanner\intermediates\merged_manifest\debug\AndroidManifest.xml:12:9-57
+22        android:required="true" />
+22-->[:flutter_qr_bar_scanner] D:\GP\Project\ev_charging_station_finder_1_0\build\flutter_qr_bar_scanner\intermediates\merged_manifest\debug\AndroidManifest.xml:13:9-32
+23
+24    <uses-permission android:name="android.permission.FOREGROUND_SERVICE" />
+24-->[:geolocator_android] D:\GP\Project\ev_charging_station_finder_1_0\build\geolocator_android\intermediates\merged_manifest\debug\AndroidManifest.xml:9:5-77
+24-->[:geolocator_android] D:\GP\Project\ev_charging_station_finder_1_0\build\geolocator_android\intermediates\merged_manifest\debug\AndroidManifest.xml:9:22-74
+25    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+25-->[com.google.firebase:firebase-auth:21.2.0] C:\Users\MARIO\.gradle\caches\transforms-3\4df50efd5003cc01ac50384eab73866d\transformed\jetified-firebase-auth-21.2.0\AndroidManifest.xml:26:5-79
+25-->[com.google.firebase:firebase-auth:21.2.0] C:\Users\MARIO\.gradle\caches\transforms-3\4df50efd5003cc01ac50384eab73866d\transformed\jetified-firebase-auth-21.2.0\AndroidManifest.xml:26:22-76
+26
+27    <uses-feature
+27-->[com.google.android.gms:play-services-maps:18.1.0] C:\Users\MARIO\.gradle\caches\transforms-3\e0b2331bb61c92c100bbb1be09504fde\transformed\jetified-play-services-maps-18.1.0\AndroidManifest.xml:26:5-28:35
+28        android:glEsVersion="0x00020000"
+28-->[com.google.android.gms:play-services-maps:18.1.0] C:\Users\MARIO\.gradle\caches\transforms-3\e0b2331bb61c92c100bbb1be09504fde\transformed\jetified-play-services-maps-18.1.0\AndroidManifest.xml:27:9-41
+29        android:required="true" />
+29-->[com.google.android.gms:play-services-maps:18.1.0] C:\Users\MARIO\.gradle\caches\transforms-3\e0b2331bb61c92c100bbb1be09504fde\transformed\jetified-play-services-maps-18.1.0\AndroidManifest.xml:28:9-32
+30
+31    <queries>
+31-->[com.google.android.gms:play-services-maps:18.1.0] C:\Users\MARIO\.gradle\caches\transforms-3\e0b2331bb61c92c100bbb1be09504fde\transformed\jetified-play-services-maps-18.1.0\AndroidManifest.xml:30:5-34:15
+32
+33        <!-- Needs to be explicitly declared on Android R+ -->
+34        <package android:name="com.google.android.apps.maps" />
+34-->[com.google.android.gms:play-services-maps:18.1.0] C:\Users\MARIO\.gradle\caches\transforms-3\e0b2331bb61c92c100bbb1be09504fde\transformed\jetified-play-services-maps-18.1.0\AndroidManifest.xml:33:9-64
+34-->[com.google.android.gms:play-services-maps:18.1.0] C:\Users\MARIO\.gradle\caches\transforms-3\e0b2331bb61c92c100bbb1be09504fde\transformed\jetified-play-services-maps-18.1.0\AndroidManifest.xml:33:18-61
+35    </queries>
+36
+37    <permission
+37-->[androidx.core:core:1.9.0] C:\Users\MARIO\.gradle\caches\transforms-3\9008b2a9fb01102d26fd2f78c055a96b\transformed\core-1.9.0\AndroidManifest.xml:22:5-24:47
+38        android:name="com.ev_charging_station_finder_1_0.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+38-->[androidx.core:core:1.9.0] C:\Users\MARIO\.gradle\caches\transforms-3\9008b2a9fb01102d26fd2f78c055a96b\transformed\core-1.9.0\AndroidManifest.xml:23:9-81
+39        android:protectionLevel="signature" />
+39-->[androidx.core:core:1.9.0] C:\Users\MARIO\.gradle\caches\transforms-3\9008b2a9fb01102d26fd2f78c055a96b\transformed\core-1.9.0\AndroidManifest.xml:24:9-44
+40
+41    <uses-permission android:name="com.ev_charging_station_finder_1_0.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION" /> <!-- Don't require camera, as this requires a rear camera. This allows it to work on the Nexus 7 -->
+41-->[androidx.core:core:1.9.0] C:\Users\MARIO\.gradle\caches\transforms-3\9008b2a9fb01102d26fd2f78c055a96b\transformed\core-1.9.0\AndroidManifest.xml:26:5-97
+41-->[androidx.core:core:1.9.0] C:\Users\MARIO\.gradle\caches\transforms-3\9008b2a9fb01102d26fd2f78c055a96b\transformed\core-1.9.0\AndroidManifest.xml:26:22-94
+42    <uses-feature
+42-->[com.journeyapps:zxing-android-embedded:4.3.0] C:\Users\MARIO\.gradle\caches\transforms-3\4672d25836730679b75344d00501e79e\transformed\jetified-zxing-android-embedded-4.3.0\AndroidManifest.xml:25:5-27:36
+43        android:name="android.hardware.camera"
+43-->[com.journeyapps:zxing-android-embedded:4.3.0] C:\Users\MARIO\.gradle\caches\transforms-3\4672d25836730679b75344d00501e79e\transformed\jetified-zxing-android-embedded-4.3.0\AndroidManifest.xml:26:9-47
+44        android:required="false" />
+44-->[com.journeyapps:zxing-android-embedded:4.3.0] C:\Users\MARIO\.gradle\caches\transforms-3\4672d25836730679b75344d00501e79e\transformed\jetified-zxing-android-embedded-4.3.0\AndroidManifest.xml:27:9-33
+45    <uses-feature
+45-->[com.journeyapps:zxing-android-embedded:4.3.0] C:\Users\MARIO\.gradle\caches\transforms-3\4672d25836730679b75344d00501e79e\transformed\jetified-zxing-android-embedded-4.3.0\AndroidManifest.xml:28:5-30:36
+46        android:name="android.hardware.camera.front"
+46-->[com.journeyapps:zxing-android-embedded:4.3.0] C:\Users\MARIO\.gradle\caches\transforms-3\4672d25836730679b75344d00501e79e\transformed\jetified-zxing-android-embedded-4.3.0\AndroidManifest.xml:29:9-53
+47        android:required="false" />
+47-->[com.journeyapps:zxing-android-embedded:4.3.0] C:\Users\MARIO\.gradle\caches\transforms-3\4672d25836730679b75344d00501e79e\transformed\jetified-zxing-android-embedded-4.3.0\AndroidManifest.xml:30:9-33
+48    <uses-feature
+48-->[com.journeyapps:zxing-android-embedded:4.3.0] C:\Users\MARIO\.gradle\caches\transforms-3\4672d25836730679b75344d00501e79e\transformed\jetified-zxing-android-embedded-4.3.0\AndroidManifest.xml:36:5-38:36
+49        android:name="android.hardware.camera.flash"
+49-->[com.journeyapps:zxing-android-embedded:4.3.0] C:\Users\MARIO\.gradle\caches\transforms-3\4672d25836730679b75344d00501e79e\transformed\jetified-zxing-android-embedded-4.3.0\AndroidManifest.xml:37:9-53
+50        android:required="false" />
+50-->[com.journeyapps:zxing-android-embedded:4.3.0] C:\Users\MARIO\.gradle\caches\transforms-3\4672d25836730679b75344d00501e79e\transformed\jetified-zxing-android-embedded-4.3.0\AndroidManifest.xml:38:9-33
+51    <uses-feature
+51-->[com.journeyapps:zxing-android-embedded:4.3.0] C:\Users\MARIO\.gradle\caches\transforms-3\4672d25836730679b75344d00501e79e\transformed\jetified-zxing-android-embedded-4.3.0\AndroidManifest.xml:39:5-41:36
+52        android:name="android.hardware.screen.landscape"
+52-->[com.journeyapps:zxing-android-embedded:4.3.0] C:\Users\MARIO\.gradle\caches\transforms-3\4672d25836730679b75344d00501e79e\transformed\jetified-zxing-android-embedded-4.3.0\AndroidManifest.xml:40:9-57
+53        android:required="false" />
+53-->[com.journeyapps:zxing-android-embedded:4.3.0] C:\Users\MARIO\.gradle\caches\transforms-3\4672d25836730679b75344d00501e79e\transformed\jetified-zxing-android-embedded-4.3.0\AndroidManifest.xml:41:9-33
+54    <uses-feature
+54-->[com.journeyapps:zxing-android-embedded:4.3.0] C:\Users\MARIO\.gradle\caches\transforms-3\4672d25836730679b75344d00501e79e\transformed\jetified-zxing-android-embedded-4.3.0\AndroidManifest.xml:42:5-44:36
+55        android:name="android.hardware.wifi"
+55-->[com.journeyapps:zxing-android-embedded:4.3.0] C:\Users\MARIO\.gradle\caches\transforms-3\4672d25836730679b75344d00501e79e\transformed\jetified-zxing-android-embedded-4.3.0\AndroidManifest.xml:43:9-45
+56        android:required="false" />
+56-->[com.journeyapps:zxing-android-embedded:4.3.0] C:\Users\MARIO\.gradle\caches\transforms-3\4672d25836730679b75344d00501e79e\transformed\jetified-zxing-android-embedded-4.3.0\AndroidManifest.xml:44:9-33
+57
+58    <application
+59        android:name="android.app.Application"
+60        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+60-->[androidx.core:core:1.9.0] C:\Users\MARIO\.gradle\caches\transforms-3\9008b2a9fb01102d26fd2f78c055a96b\transformed\core-1.9.0\AndroidManifest.xml:28:18-86
+61        android:debuggable="true"
+62        android:icon="@mipmap/ic_launcher"
+63        android:label="ev_charging_station_finder_1_0" >
+64        <meta-data
+65            android:name="com.google.android.geo.API_KEY"
+66            android:value="AIzaSyCgR4LxabaW-1SzzyTOPJsaawgj41irC7Q" />
+67
+68        <uses-library
+69            android:name="org.apache.http.legacy"
+70            android:required="false" />
+71
+72        <activity
+73            android:name="com.ev_charging_station_finder_1_0.MainActivity"
+74            android:configChanges="orientation|keyboardHidden|keyboard|screenSize|smallestScreenSize|locale|layoutDirection|fontScale|screenLayout|density|uiMode"
+75            android:exported="true"
+76            android:hardwareAccelerated="true"
+77            android:launchMode="singleTop"
+78            android:theme="@style/LaunchTheme"
+79            android:windowSoftInputMode="adjustResize" >
+80
+81            <!--
+82                 Specifies an Android theme to apply to this Activity as soon as
+83                 the Android process has started. This theme is visible to the user
+84                 while the Flutter UI initializes. After that, this theme continues
+85                 to determine the Window background behind the Flutter UI.
+86            -->
+87            <meta-data
+88                android:name="io.flutter.embedding.android.NormalTheme"
+89                android:resource="@style/NormalTheme" />
+90
+91            <intent-filter>
+92                <action android:name="android.intent.action.MAIN" />
+93
+94                <category android:name="android.intent.category.LAUNCHER" />
+95            </intent-filter>
+96        </activity>
+97        <!--
+98             Don't delete the meta-data below.
+99             This is used by the Flutter tool to generate GeneratedPluginRegistrant.java
+100        -->
+101        <meta-data
+102            android:name="flutterEmbedding"
+103            android:value="2" />
+104        <meta-data
+104-->[:flutter_qr_bar_scanner] D:\GP\Project\ev_charging_station_finder_1_0\build\flutter_qr_bar_scanner\intermediates\merged_manifest\debug\AndroidManifest.xml:16:9-18:39
+105            android:name="com.google.android.gms.vision.DEPENDENCIES"
+105-->[:flutter_qr_bar_scanner] D:\GP\Project\ev_charging_station_finder_1_0\build\flutter_qr_bar_scanner\intermediates\merged_manifest\debug\AndroidManifest.xml:17:13-70
+106            android:value="barcode" />
+106-->[:flutter_qr_bar_scanner] D:\GP\Project\ev_charging_station_finder_1_0\build\flutter_qr_bar_scanner\intermediates\merged_manifest\debug\AndroidManifest.xml:18:13-36
+107
+108        <service
+108-->[:firebase_auth] D:\GP\Project\ev_charging_station_finder_1_0\build\firebase_auth\intermediates\merged_manifest\debug\AndroidManifest.xml:10:9-14:19
+109            android:name="com.google.firebase.components.ComponentDiscoveryService"
+109-->[:firebase_auth] D:\GP\Project\ev_charging_station_finder_1_0\build\firebase_auth\intermediates\merged_manifest\debug\AndroidManifest.xml:10:18-89
+110            android:directBootAware="true"
+110-->[com.google.firebase:firebase-common:20.3.2] C:\Users\MARIO\.gradle\caches\transforms-3\026de80ea9d0b63bfc94ec9a10c1d73c\transformed\jetified-firebase-common-20.3.2\AndroidManifest.xml:34:13-43
+111            android:exported="false" >
+111-->[com.google.firebase:firebase-auth:21.2.0] C:\Users\MARIO\.gradle\caches\transforms-3\4df50efd5003cc01ac50384eab73866d\transformed\jetified-firebase-auth-21.2.0\AndroidManifest.xml:68:13-37
+112            <meta-data
+112-->[:firebase_auth] D:\GP\Project\ev_charging_station_finder_1_0\build\firebase_auth\intermediates\merged_manifest\debug\AndroidManifest.xml:11:13-13:85
+113                android:name="com.google.firebase.components:io.flutter.plugins.firebase.auth.FlutterFirebaseAuthRegistrar"
+113-->[:firebase_auth] D:\GP\Project\ev_charging_station_finder_1_0\build\firebase_auth\intermediates\merged_manifest\debug\AndroidManifest.xml:12:17-124
+114                android:value="com.google.firebase.components.ComponentRegistrar" />
+114-->[:firebase_auth] D:\GP\Project\ev_charging_station_finder_1_0\build\firebase_auth\intermediates\merged_manifest\debug\AndroidManifest.xml:13:17-82
+115            <meta-data
+115-->[:cloud_firestore] D:\GP\Project\ev_charging_station_finder_1_0\build\cloud_firestore\intermediates\merged_manifest\debug\AndroidManifest.xml:11:13-13:85
+116                android:name="com.google.firebase.components:io.flutter.plugins.firebase.firestore.FlutterFirebaseFirestoreRegistrar"
+116-->[:cloud_firestore] D:\GP\Project\ev_charging_station_finder_1_0\build\cloud_firestore\intermediates\merged_manifest\debug\AndroidManifest.xml:12:17-134
+117                android:value="com.google.firebase.components.ComponentRegistrar" />
+117-->[:cloud_firestore] D:\GP\Project\ev_charging_station_finder_1_0\build\cloud_firestore\intermediates\merged_manifest\debug\AndroidManifest.xml:13:17-82
+118            <meta-data
+118-->[:firebase_core] D:\GP\Project\ev_charging_station_finder_1_0\build\firebase_core\intermediates\merged_manifest\debug\AndroidManifest.xml:11:13-13:85
+119                android:name="com.google.firebase.components:io.flutter.plugins.firebase.core.FlutterFirebaseCoreRegistrar"
+119-->[:firebase_core] D:\GP\Project\ev_charging_station_finder_1_0\build\firebase_core\intermediates\merged_manifest\debug\AndroidManifest.xml:12:17-124
+120                android:value="com.google.firebase.components.ComponentRegistrar" />
+120-->[:firebase_core] D:\GP\Project\ev_charging_station_finder_1_0\build\firebase_core\intermediates\merged_manifest\debug\AndroidManifest.xml:13:17-82
+121            <meta-data
+121-->[com.google.firebase:firebase-auth:21.2.0] C:\Users\MARIO\.gradle\caches\transforms-3\4df50efd5003cc01ac50384eab73866d\transformed\jetified-firebase-auth-21.2.0\AndroidManifest.xml:69:13-71:85
+122                android:name="com.google.firebase.components:com.google.firebase.auth.FirebaseAuthRegistrar"
+122-->[com.google.firebase:firebase-auth:21.2.0] C:\Users\MARIO\.gradle\caches\transforms-3\4df50efd5003cc01ac50384eab73866d\transformed\jetified-firebase-auth-21.2.0\AndroidManifest.xml:70:17-109
+123                android:value="com.google.firebase.components.ComponentRegistrar" />
+123-->[com.google.firebase:firebase-auth:21.2.0] C:\Users\MARIO\.gradle\caches\transforms-3\4df50efd5003cc01ac50384eab73866d\transformed\jetified-firebase-auth-21.2.0\AndroidManifest.xml:71:17-82
+124            <meta-data
+124-->[com.google.firebase:firebase-firestore:24.4.5] C:\Users\MARIO\.gradle\caches\transforms-3\d43b47d168b13e665dc2882906f823bc\transformed\jetified-firebase-firestore-24.4.5\AndroidManifest.xml:19:13-21:85
+125                android:name="com.google.firebase.components:com.google.firebase.firestore.FirestoreRegistrar"
+125-->[com.google.firebase:firebase-firestore:24.4.5] C:\Users\MARIO\.gradle\caches\transforms-3\d43b47d168b13e665dc2882906f823bc\transformed\jetified-firebase-firestore-24.4.5\AndroidManifest.xml:20:17-111
+126                android:value="com.google.firebase.components.ComponentRegistrar" />
+126-->[com.google.firebase:firebase-firestore:24.4.5] C:\Users\MARIO\.gradle\caches\transforms-3\d43b47d168b13e665dc2882906f823bc\transformed\jetified-firebase-firestore-24.4.5\AndroidManifest.xml:21:17-82
+127        </service>
+128        <service
+128-->[:geolocator_android] D:\GP\Project\ev_charging_station_finder_1_0\build\geolocator_android\intermediates\merged_manifest\debug\AndroidManifest.xml:12:9-16:56
+129            android:name="com.baseflow.geolocator.GeolocatorLocationService"
+129-->[:geolocator_android] D:\GP\Project\ev_charging_station_finder_1_0\build\geolocator_android\intermediates\merged_manifest\debug\AndroidManifest.xml:13:13-77
+130            android:enabled="true"
+130-->[:geolocator_android] D:\GP\Project\ev_charging_station_finder_1_0\build\geolocator_android\intermediates\merged_manifest\debug\AndroidManifest.xml:14:13-35
+131            android:exported="false"
+131-->[:geolocator_android] D:\GP\Project\ev_charging_station_finder_1_0\build\geolocator_android\intermediates\merged_manifest\debug\AndroidManifest.xml:15:13-37
+132            android:foregroundServiceType="location" />
+132-->[:geolocator_android] D:\GP\Project\ev_charging_station_finder_1_0\build\geolocator_android\intermediates\merged_manifest\debug\AndroidManifest.xml:16:13-53
+133
+134        <activity
+134-->[:url_launcher_android] D:\GP\Project\ev_charging_station_finder_1_0\build\url_launcher_android\intermediates\merged_manifest\debug\AndroidManifest.xml:10:9-13:74
+135            android:name="io.flutter.plugins.urllauncher.WebViewActivity"
+135-->[:url_launcher_android] D:\GP\Project\ev_charging_station_finder_1_0\build\url_launcher_android\intermediates\merged_manifest\debug\AndroidManifest.xml:11:13-74
+136            android:exported="false"
+136-->[:url_launcher_android] D:\GP\Project\ev_charging_station_finder_1_0\build\url_launcher_android\intermediates\merged_manifest\debug\AndroidManifest.xml:12:13-37
+137            android:theme="@android:style/Theme.NoTitleBar.Fullscreen" />
+137-->[:url_launcher_android] D:\GP\Project\ev_charging_station_finder_1_0\build\url_launcher_android\intermediates\merged_manifest\debug\AndroidManifest.xml:13:13-71
+138
+139        <service
+139-->[:location] D:\GP\Project\ev_charging_station_finder_1_0\build\location\intermediates\merged_manifest\debug\AndroidManifest.xml:13:9-17:56
+140            android:name="com.lyokone.location.FlutterLocationService"
+140-->[:location] D:\GP\Project\ev_charging_station_finder_1_0\build\location\intermediates\merged_manifest\debug\AndroidManifest.xml:14:13-71
+141            android:enabled="true"
+141-->[:location] D:\GP\Project\ev_charging_station_finder_1_0\build\location\intermediates\merged_manifest\debug\AndroidManifest.xml:15:13-35
+142            android:exported="false"
+142-->[:location] D:\GP\Project\ev_charging_station_finder_1_0\build\location\intermediates\merged_manifest\debug\AndroidManifest.xml:16:13-37
+143            android:foregroundServiceType="location" />
+143-->[:location] D:\GP\Project\ev_charging_station_finder_1_0\build\location\intermediates\merged_manifest\debug\AndroidManifest.xml:17:13-53
+144
+145        <uses-library
+145-->[androidx.window:window:1.0.0-beta04] C:\Users\MARIO\.gradle\caches\transforms-3\40ff8c014bc3b03149787e1d45a42dea\transformed\jetified-window-1.0.0-beta04\AndroidManifest.xml:25:9-27:40
+146            android:name="androidx.window.extensions"
+146-->[androidx.window:window:1.0.0-beta04] C:\Users\MARIO\.gradle\caches\transforms-3\40ff8c014bc3b03149787e1d45a42dea\transformed\jetified-window-1.0.0-beta04\AndroidManifest.xml:26:13-54
+147            android:required="false" />
+147-->[androidx.window:window:1.0.0-beta04] C:\Users\MARIO\.gradle\caches\transforms-3\40ff8c014bc3b03149787e1d45a42dea\transformed\jetified-window-1.0.0-beta04\AndroidManifest.xml:27:13-37
+148        <uses-library
+148-->[androidx.window:window:1.0.0-beta04] C:\Users\MARIO\.gradle\caches\transforms-3\40ff8c014bc3b03149787e1d45a42dea\transformed\jetified-window-1.0.0-beta04\AndroidManifest.xml:28:9-30:40
+149            android:name="androidx.window.sidecar"
+149-->[androidx.window:window:1.0.0-beta04] C:\Users\MARIO\.gradle\caches\transforms-3\40ff8c014bc3b03149787e1d45a42dea\transformed\jetified-window-1.0.0-beta04\AndroidManifest.xml:29:13-51
+150            android:required="false" />
+150-->[androidx.window:window:1.0.0-beta04] C:\Users\MARIO\.gradle\caches\transforms-3\40ff8c014bc3b03149787e1d45a42dea\transformed\jetified-window-1.0.0-beta04\AndroidManifest.xml:30:13-37
+151
+152        <activity
+152-->[com.google.firebase:firebase-auth:21.2.0] C:\Users\MARIO\.gradle\caches\transforms-3\4df50efd5003cc01ac50384eab73866d\transformed\jetified-firebase-auth-21.2.0\AndroidManifest.xml:29:9-46:20
+153            android:name="com.google.firebase.auth.internal.GenericIdpActivity"
+153-->[com.google.firebase:firebase-auth:21.2.0] C:\Users\MARIO\.gradle\caches\transforms-3\4df50efd5003cc01ac50384eab73866d\transformed\jetified-firebase-auth-21.2.0\AndroidManifest.xml:30:13-80
+154            android:excludeFromRecents="true"
+154-->[com.google.firebase:firebase-auth:21.2.0] C:\Users\MARIO\.gradle\caches\transforms-3\4df50efd5003cc01ac50384eab73866d\transformed\jetified-firebase-auth-21.2.0\AndroidManifest.xml:31:13-46
+155            android:exported="true"
+155-->[com.google.firebase:firebase-auth:21.2.0] C:\Users\MARIO\.gradle\caches\transforms-3\4df50efd5003cc01ac50384eab73866d\transformed\jetified-firebase-auth-21.2.0\AndroidManifest.xml:32:13-36
+156            android:launchMode="singleTask"
+156-->[com.google.firebase:firebase-auth:21.2.0] C:\Users\MARIO\.gradle\caches\transforms-3\4df50efd5003cc01ac50384eab73866d\transformed\jetified-firebase-auth-21.2.0\AndroidManifest.xml:33:13-44
+157            android:theme="@android:style/Theme.Translucent.NoTitleBar" >
+157-->[com.google.firebase:firebase-auth:21.2.0] C:\Users\MARIO\.gradle\caches\transforms-3\4df50efd5003cc01ac50384eab73866d\transformed\jetified-firebase-auth-21.2.0\AndroidManifest.xml:34:13-72
+158            <intent-filter>
+158-->[com.google.firebase:firebase-auth:21.2.0] C:\Users\MARIO\.gradle\caches\transforms-3\4df50efd5003cc01ac50384eab73866d\transformed\jetified-firebase-auth-21.2.0\AndroidManifest.xml:35:13-45:29
+159                <action android:name="android.intent.action.VIEW" />
+159-->[com.google.firebase:firebase-auth:21.2.0] C:\Users\MARIO\.gradle\caches\transforms-3\4df50efd5003cc01ac50384eab73866d\transformed\jetified-firebase-auth-21.2.0\AndroidManifest.xml:36:17-69
+159-->[com.google.firebase:firebase-auth:21.2.0] C:\Users\MARIO\.gradle\caches\transforms-3\4df50efd5003cc01ac50384eab73866d\transformed\jetified-firebase-auth-21.2.0\AndroidManifest.xml:36:25-66
+160
+161                <category android:name="android.intent.category.DEFAULT" />
+161-->[com.google.firebase:firebase-auth:21.2.0] C:\Users\MARIO\.gradle\caches\transforms-3\4df50efd5003cc01ac50384eab73866d\transformed\jetified-firebase-auth-21.2.0\AndroidManifest.xml:38:17-76
+161-->[com.google.firebase:firebase-auth:21.2.0] C:\Users\MARIO\.gradle\caches\transforms-3\4df50efd5003cc01ac50384eab73866d\transformed\jetified-firebase-auth-21.2.0\AndroidManifest.xml:38:27-73
+162                <category android:name="android.intent.category.BROWSABLE" />
+162-->[com.google.firebase:firebase-auth:21.2.0] C:\Users\MARIO\.gradle\caches\transforms-3\4df50efd5003cc01ac50384eab73866d\transformed\jetified-firebase-auth-21.2.0\AndroidManifest.xml:39:17-78
+162-->[com.google.firebase:firebase-auth:21.2.0] C:\Users\MARIO\.gradle\caches\transforms-3\4df50efd5003cc01ac50384eab73866d\transformed\jetified-firebase-auth-21.2.0\AndroidManifest.xml:39:27-75
+163
+164                <data
+164-->[com.google.firebase:firebase-auth:21.2.0] C:\Users\MARIO\.gradle\caches\transforms-3\4df50efd5003cc01ac50384eab73866d\transformed\jetified-firebase-auth-21.2.0\AndroidManifest.xml:41:17-44:51
+165                    android:host="firebase.auth"
+165-->[com.google.firebase:firebase-auth:21.2.0] C:\Users\MARIO\.gradle\caches\transforms-3\4df50efd5003cc01ac50384eab73866d\transformed\jetified-firebase-auth-21.2.0\AndroidManifest.xml:42:21-49
+166                    android:path="/"
+166-->[com.google.firebase:firebase-auth:21.2.0] C:\Users\MARIO\.gradle\caches\transforms-3\4df50efd5003cc01ac50384eab73866d\transformed\jetified-firebase-auth-21.2.0\AndroidManifest.xml:43:21-37
+167                    android:scheme="genericidp" />
+167-->[com.google.firebase:firebase-auth:21.2.0] C:\Users\MARIO\.gradle\caches\transforms-3\4df50efd5003cc01ac50384eab73866d\transformed\jetified-firebase-auth-21.2.0\AndroidManifest.xml:44:21-48
+168            </intent-filter>
+169        </activity>
+170        <activity
+170-->[com.google.firebase:firebase-auth:21.2.0] C:\Users\MARIO\.gradle\caches\transforms-3\4df50efd5003cc01ac50384eab73866d\transformed\jetified-firebase-auth-21.2.0\AndroidManifest.xml:47:9-64:20
+171            android:name="com.google.firebase.auth.internal.RecaptchaActivity"
+171-->[com.google.firebase:firebase-auth:21.2.0] C:\Users\MARIO\.gradle\caches\transforms-3\4df50efd5003cc01ac50384eab73866d\transformed\jetified-firebase-auth-21.2.0\AndroidManifest.xml:48:13-79
+172            android:excludeFromRecents="true"
+172-->[com.google.firebase:firebase-auth:21.2.0] C:\Users\MARIO\.gradle\caches\transforms-3\4df50efd5003cc01ac50384eab73866d\transformed\jetified-firebase-auth-21.2.0\AndroidManifest.xml:49:13-46
+173            android:exported="true"
+173-->[com.google.firebase:firebase-auth:21.2.0] C:\Users\MARIO\.gradle\caches\transforms-3\4df50efd5003cc01ac50384eab73866d\transformed\jetified-firebase-auth-21.2.0\AndroidManifest.xml:50:13-36
+174            android:launchMode="singleTask"
+174-->[com.google.firebase:firebase-auth:21.2.0] C:\Users\MARIO\.gradle\caches\transforms-3\4df50efd5003cc01ac50384eab73866d\transformed\jetified-firebase-auth-21.2.0\AndroidManifest.xml:51:13-44
+175            android:theme="@android:style/Theme.Translucent.NoTitleBar" >
+175-->[com.google.firebase:firebase-auth:21.2.0] C:\Users\MARIO\.gradle\caches\transforms-3\4df50efd5003cc01ac50384eab73866d\transformed\jetified-firebase-auth-21.2.0\AndroidManifest.xml:52:13-72
+176            <intent-filter>
+176-->[com.google.firebase:firebase-auth:21.2.0] C:\Users\MARIO\.gradle\caches\transforms-3\4df50efd5003cc01ac50384eab73866d\transformed\jetified-firebase-auth-21.2.0\AndroidManifest.xml:53:13-63:29
+177                <action android:name="android.intent.action.VIEW" />
+177-->[com.google.firebase:firebase-auth:21.2.0] C:\Users\MARIO\.gradle\caches\transforms-3\4df50efd5003cc01ac50384eab73866d\transformed\jetified-firebase-auth-21.2.0\AndroidManifest.xml:36:17-69
+177-->[com.google.firebase:firebase-auth:21.2.0] C:\Users\MARIO\.gradle\caches\transforms-3\4df50efd5003cc01ac50384eab73866d\transformed\jetified-firebase-auth-21.2.0\AndroidManifest.xml:36:25-66
+178
+179                <category android:name="android.intent.category.DEFAULT" />
+179-->[com.google.firebase:firebase-auth:21.2.0] C:\Users\MARIO\.gradle\caches\transforms-3\4df50efd5003cc01ac50384eab73866d\transformed\jetified-firebase-auth-21.2.0\AndroidManifest.xml:38:17-76
+179-->[com.google.firebase:firebase-auth:21.2.0] C:\Users\MARIO\.gradle\caches\transforms-3\4df50efd5003cc01ac50384eab73866d\transformed\jetified-firebase-auth-21.2.0\AndroidManifest.xml:38:27-73
+180                <category android:name="android.intent.category.BROWSABLE" />
+180-->[com.google.firebase:firebase-auth:21.2.0] C:\Users\MARIO\.gradle\caches\transforms-3\4df50efd5003cc01ac50384eab73866d\transformed\jetified-firebase-auth-21.2.0\AndroidManifest.xml:39:17-78
+180-->[com.google.firebase:firebase-auth:21.2.0] C:\Users\MARIO\.gradle\caches\transforms-3\4df50efd5003cc01ac50384eab73866d\transformed\jetified-firebase-auth-21.2.0\AndroidManifest.xml:39:27-75
+181
+182                <data
+182-->[com.google.firebase:firebase-auth:21.2.0] C:\Users\MARIO\.gradle\caches\transforms-3\4df50efd5003cc01ac50384eab73866d\transformed\jetified-firebase-auth-21.2.0\AndroidManifest.xml:41:17-44:51
+183                    android:host="firebase.auth"
+183-->[com.google.firebase:firebase-auth:21.2.0] C:\Users\MARIO\.gradle\caches\transforms-3\4df50efd5003cc01ac50384eab73866d\transformed\jetified-firebase-auth-21.2.0\AndroidManifest.xml:42:21-49
+184                    android:path="/"
+184-->[com.google.firebase:firebase-auth:21.2.0] C:\Users\MARIO\.gradle\caches\transforms-3\4df50efd5003cc01ac50384eab73866d\transformed\jetified-firebase-auth-21.2.0\AndroidManifest.xml:43:21-37
+185                    android:scheme="recaptcha" />
+185-->[com.google.firebase:firebase-auth:21.2.0] C:\Users\MARIO\.gradle\caches\transforms-3\4df50efd5003cc01ac50384eab73866d\transformed\jetified-firebase-auth-21.2.0\AndroidManifest.xml:44:21-48
+186            </intent-filter>
+187        </activity>
+188
+189        <provider
+189-->[com.google.firebase:firebase-common:20.3.2] C:\Users\MARIO\.gradle\caches\transforms-3\026de80ea9d0b63bfc94ec9a10c1d73c\transformed\jetified-firebase-common-20.3.2\AndroidManifest.xml:25:9-30:39
+190            android:name="com.google.firebase.provider.FirebaseInitProvider"
+190-->[com.google.firebase:firebase-common:20.3.2] C:\Users\MARIO\.gradle\caches\transforms-3\026de80ea9d0b63bfc94ec9a10c1d73c\transformed\jetified-firebase-common-20.3.2\AndroidManifest.xml:26:13-77
+191            android:authorities="com.ev_charging_station_finder_1_0.firebaseinitprovider"
+191-->[com.google.firebase:firebase-common:20.3.2] C:\Users\MARIO\.gradle\caches\transforms-3\026de80ea9d0b63bfc94ec9a10c1d73c\transformed\jetified-firebase-common-20.3.2\AndroidManifest.xml:27:13-72
+192            android:directBootAware="true"
+192-->[com.google.firebase:firebase-common:20.3.2] C:\Users\MARIO\.gradle\caches\transforms-3\026de80ea9d0b63bfc94ec9a10c1d73c\transformed\jetified-firebase-common-20.3.2\AndroidManifest.xml:28:13-43
+193            android:exported="false"
+193-->[com.google.firebase:firebase-common:20.3.2] C:\Users\MARIO\.gradle\caches\transforms-3\026de80ea9d0b63bfc94ec9a10c1d73c\transformed\jetified-firebase-common-20.3.2\AndroidManifest.xml:29:13-37
+194            android:initOrder="100" />
+194-->[com.google.firebase:firebase-common:20.3.2] C:\Users\MARIO\.gradle\caches\transforms-3\026de80ea9d0b63bfc94ec9a10c1d73c\transformed\jetified-firebase-common-20.3.2\AndroidManifest.xml:30:13-36
+195
+196        <service
+196-->[com.google.android.gms:play-services-mlkit-barcode-scanning:16.1.4] C:\Users\MARIO\.gradle\caches\transforms-3\119514c351a3d06c550843658a29b7ef\transformed\jetified-play-services-mlkit-barcode-scanning-16.1.4\AndroidManifest.xml:9:9-15:19
+197            android:name="com.google.mlkit.common.internal.MlKitComponentDiscoveryService"
+197-->[com.google.android.gms:play-services-mlkit-barcode-scanning:16.1.4] C:\Users\MARIO\.gradle\caches\transforms-3\119514c351a3d06c550843658a29b7ef\transformed\jetified-play-services-mlkit-barcode-scanning-16.1.4\AndroidManifest.xml:10:13-91
+198            android:directBootAware="true"
+198-->[com.google.mlkit:common:17.1.1] C:\Users\MARIO\.gradle\caches\transforms-3\16e74d92115b2e41202fd49882a51d7d\transformed\jetified-common-17.1.1\AndroidManifest.xml:17:13-43
+199            android:exported="false" >
+199-->[com.google.android.gms:play-services-mlkit-barcode-scanning:16.1.4] C:\Users\MARIO\.gradle\caches\transforms-3\119514c351a3d06c550843658a29b7ef\transformed\jetified-play-services-mlkit-barcode-scanning-16.1.4\AndroidManifest.xml:11:13-37
+200            <meta-data
+200-->[com.google.android.gms:play-services-mlkit-barcode-scanning:16.1.4] C:\Users\MARIO\.gradle\caches\transforms-3\119514c351a3d06c550843658a29b7ef\transformed\jetified-play-services-mlkit-barcode-scanning-16.1.4\AndroidManifest.xml:12:13-14:85
+201                android:name="com.google.firebase.components:com.google.mlkit.vision.barcode.internal.BarcodeRegistrar"
+201-->[com.google.android.gms:play-services-mlkit-barcode-scanning:16.1.4] C:\Users\MARIO\.gradle\caches\transforms-3\119514c351a3d06c550843658a29b7ef\transformed\jetified-play-services-mlkit-barcode-scanning-16.1.4\AndroidManifest.xml:13:17-120
+202                android:value="com.google.firebase.components.ComponentRegistrar" />
+202-->[com.google.android.gms:play-services-mlkit-barcode-scanning:16.1.4] C:\Users\MARIO\.gradle\caches\transforms-3\119514c351a3d06c550843658a29b7ef\transformed\jetified-play-services-mlkit-barcode-scanning-16.1.4\AndroidManifest.xml:14:17-82
+203            <meta-data
+203-->[com.google.mlkit:vision-common:16.3.0] C:\Users\MARIO\.gradle\caches\transforms-3\9f690ed5c2f1d2628ad718432627f4b2\transformed\jetified-vision-common-16.3.0\AndroidManifest.xml:12:13-14:85
+204                android:name="com.google.firebase.components:com.google.mlkit.vision.common.internal.VisionCommonRegistrar"
+204-->[com.google.mlkit:vision-common:16.3.0] C:\Users\MARIO\.gradle\caches\transforms-3\9f690ed5c2f1d2628ad718432627f4b2\transformed\jetified-vision-common-16.3.0\AndroidManifest.xml:13:17-124
+205                android:value="com.google.firebase.components.ComponentRegistrar" />
+205-->[com.google.mlkit:vision-common:16.3.0] C:\Users\MARIO\.gradle\caches\transforms-3\9f690ed5c2f1d2628ad718432627f4b2\transformed\jetified-vision-common-16.3.0\AndroidManifest.xml:14:17-82
+206            <meta-data
+206-->[com.google.mlkit:common:17.1.1] C:\Users\MARIO\.gradle\caches\transforms-3\16e74d92115b2e41202fd49882a51d7d\transformed\jetified-common-17.1.1\AndroidManifest.xml:20:13-22:85
+207                android:name="com.google.firebase.components:com.google.mlkit.common.internal.CommonComponentRegistrar"
+207-->[com.google.mlkit:common:17.1.1] C:\Users\MARIO\.gradle\caches\transforms-3\16e74d92115b2e41202fd49882a51d7d\transformed\jetified-common-17.1.1\AndroidManifest.xml:21:17-120
+208                android:value="com.google.firebase.components.ComponentRegistrar" />
+208-->[com.google.mlkit:common:17.1.1] C:\Users\MARIO\.gradle\caches\transforms-3\16e74d92115b2e41202fd49882a51d7d\transformed\jetified-common-17.1.1\AndroidManifest.xml:22:17-82
+209        </service>
+210
+211        <provider
+211-->[com.google.mlkit:common:17.1.1] C:\Users\MARIO\.gradle\caches\transforms-3\16e74d92115b2e41202fd49882a51d7d\transformed\jetified-common-17.1.1\AndroidManifest.xml:9:9-13:38
+212            android:name="com.google.mlkit.common.internal.MlKitInitProvider"
+212-->[com.google.mlkit:common:17.1.1] C:\Users\MARIO\.gradle\caches\transforms-3\16e74d92115b2e41202fd49882a51d7d\transformed\jetified-common-17.1.1\AndroidManifest.xml:10:13-78
+213            android:authorities="com.ev_charging_station_finder_1_0.mlkitinitprovider"
+213-->[com.google.mlkit:common:17.1.1] C:\Users\MARIO\.gradle\caches\transforms-3\16e74d92115b2e41202fd49882a51d7d\transformed\jetified-common-17.1.1\AndroidManifest.xml:11:13-69
+214            android:exported="false"
+214-->[com.google.mlkit:common:17.1.1] C:\Users\MARIO\.gradle\caches\transforms-3\16e74d92115b2e41202fd49882a51d7d\transformed\jetified-common-17.1.1\AndroidManifest.xml:12:13-37
+215            android:initOrder="99" />
+215-->[com.google.mlkit:common:17.1.1] C:\Users\MARIO\.gradle\caches\transforms-3\16e74d92115b2e41202fd49882a51d7d\transformed\jetified-common-17.1.1\AndroidManifest.xml:13:13-35
+216
+217        <activity
+217-->[com.google.android.gms:play-services-base:18.1.0] C:\Users\MARIO\.gradle\caches\transforms-3\237d3081442428b84c22a164c1a9fd7b\transformed\jetified-play-services-base-18.1.0\AndroidManifest.xml:20:9-22:45
+218            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+218-->[com.google.android.gms:play-services-base:18.1.0] C:\Users\MARIO\.gradle\caches\transforms-3\237d3081442428b84c22a164c1a9fd7b\transformed\jetified-play-services-base-18.1.0\AndroidManifest.xml:20:19-85
+219            android:exported="false"
+219-->[com.google.android.gms:play-services-base:18.1.0] C:\Users\MARIO\.gradle\caches\transforms-3\237d3081442428b84c22a164c1a9fd7b\transformed\jetified-play-services-base-18.1.0\AndroidManifest.xml:22:19-43
+220            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+220-->[com.google.android.gms:play-services-base:18.1.0] C:\Users\MARIO\.gradle\caches\transforms-3\237d3081442428b84c22a164c1a9fd7b\transformed\jetified-play-services-base-18.1.0\AndroidManifest.xml:21:19-78
+221
+222        <meta-data
+222-->[com.google.android.gms:play-services-basement:18.1.0] C:\Users\MARIO\.gradle\caches\transforms-3\ad3fb7e0e58165c0e3c87f8f0d79631f\transformed\jetified-play-services-basement-18.1.0\AndroidManifest.xml:21:9-23:69
+223            android:name="com.google.android.gms.version"
+223-->[com.google.android.gms:play-services-basement:18.1.0] C:\Users\MARIO\.gradle\caches\transforms-3\ad3fb7e0e58165c0e3c87f8f0d79631f\transformed\jetified-play-services-basement-18.1.0\AndroidManifest.xml:22:13-58
+224            android:value="@integer/google_play_services_version" />
+224-->[com.google.android.gms:play-services-basement:18.1.0] C:\Users\MARIO\.gradle\caches\transforms-3\ad3fb7e0e58165c0e3c87f8f0d79631f\transformed\jetified-play-services-basement-18.1.0\AndroidManifest.xml:23:13-66
+225
+226        <provider
+226-->[androidx.emoji2:emoji2:1.0.0] C:\Users\MARIO\.gradle\caches\transforms-3\0a21f1d4d121f9bf3a651f0b74bc391b\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:26:9-34:20
+227            android:name="androidx.startup.InitializationProvider"
+227-->[androidx.emoji2:emoji2:1.0.0] C:\Users\MARIO\.gradle\caches\transforms-3\0a21f1d4d121f9bf3a651f0b74bc391b\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:27:13-67
+228            android:authorities="com.ev_charging_station_finder_1_0.androidx-startup"
+228-->[androidx.emoji2:emoji2:1.0.0] C:\Users\MARIO\.gradle\caches\transforms-3\0a21f1d4d121f9bf3a651f0b74bc391b\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:28:13-68
+229            android:exported="false" >
+229-->[androidx.emoji2:emoji2:1.0.0] C:\Users\MARIO\.gradle\caches\transforms-3\0a21f1d4d121f9bf3a651f0b74bc391b\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:29:13-37
+230            <meta-data
+230-->[androidx.emoji2:emoji2:1.0.0] C:\Users\MARIO\.gradle\caches\transforms-3\0a21f1d4d121f9bf3a651f0b74bc391b\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:31:13-33:52
+231                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+231-->[androidx.emoji2:emoji2:1.0.0] C:\Users\MARIO\.gradle\caches\transforms-3\0a21f1d4d121f9bf3a651f0b74bc391b\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:32:17-75
+232                android:value="androidx.startup" />
+232-->[androidx.emoji2:emoji2:1.0.0] C:\Users\MARIO\.gradle\caches\transforms-3\0a21f1d4d121f9bf3a651f0b74bc391b\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:33:17-49
+233            <meta-data
+233-->[androidx.lifecycle:lifecycle-process:2.4.0] C:\Users\MARIO\.gradle\caches\transforms-3\361a032e997f076aca675328f4104756\transformed\jetified-lifecycle-process-2.4.0\AndroidManifest.xml:31:13-33:52
+234                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+234-->[androidx.lifecycle:lifecycle-process:2.4.0] C:\Users\MARIO\.gradle\caches\transforms-3\361a032e997f076aca675328f4104756\transformed\jetified-lifecycle-process-2.4.0\AndroidManifest.xml:32:17-78
+235                android:value="androidx.startup" />
+235-->[androidx.lifecycle:lifecycle-process:2.4.0] C:\Users\MARIO\.gradle\caches\transforms-3\361a032e997f076aca675328f4104756\transformed\jetified-lifecycle-process-2.4.0\AndroidManifest.xml:33:17-49
+236        </provider>
+237
+238        <service
+238-->[com.google.android.datatransport:transport-backend-cct:2.3.2] C:\Users\MARIO\.gradle\caches\transforms-3\bb3cb9913793847f76366c40076ca88c\transformed\jetified-transport-backend-cct-2.3.2\AndroidManifest.xml:29:9-35:19
+239            android:name="com.google.android.datatransport.runtime.backends.TransportBackendDiscovery"
+239-->[com.google.android.datatransport:transport-backend-cct:2.3.2] C:\Users\MARIO\.gradle\caches\transforms-3\bb3cb9913793847f76366c40076ca88c\transformed\jetified-transport-backend-cct-2.3.2\AndroidManifest.xml:30:13-103
+240            android:exported="false" >
+240-->[com.google.android.datatransport:transport-backend-cct:2.3.2] C:\Users\MARIO\.gradle\caches\transforms-3\bb3cb9913793847f76366c40076ca88c\transformed\jetified-transport-backend-cct-2.3.2\AndroidManifest.xml:31:13-37
+241            <meta-data
+241-->[com.google.android.datatransport:transport-backend-cct:2.3.2] C:\Users\MARIO\.gradle\caches\transforms-3\bb3cb9913793847f76366c40076ca88c\transformed\jetified-transport-backend-cct-2.3.2\AndroidManifest.xml:32:13-34:39
+242                android:name="backend:com.google.android.datatransport.cct.CctBackendFactory"
+242-->[com.google.android.datatransport:transport-backend-cct:2.3.2] C:\Users\MARIO\.gradle\caches\transforms-3\bb3cb9913793847f76366c40076ca88c\transformed\jetified-transport-backend-cct-2.3.2\AndroidManifest.xml:33:17-94
+243                android:value="cct" />
+243-->[com.google.android.datatransport:transport-backend-cct:2.3.2] C:\Users\MARIO\.gradle\caches\transforms-3\bb3cb9913793847f76366c40076ca88c\transformed\jetified-transport-backend-cct-2.3.2\AndroidManifest.xml:34:17-36
+244        </service>
+245        <service
+245-->[com.google.android.datatransport:transport-runtime:2.2.5] C:\Users\MARIO\.gradle\caches\transforms-3\f4717bebe0cfb151c05a1f0a35592bbd\transformed\jetified-transport-runtime-2.2.5\AndroidManifest.xml:26:9-30:19
+246            android:name="com.google.android.datatransport.runtime.scheduling.jobscheduling.JobInfoSchedulerService"
+246-->[com.google.android.datatransport:transport-runtime:2.2.5] C:\Users\MARIO\.gradle\caches\transforms-3\f4717bebe0cfb151c05a1f0a35592bbd\transformed\jetified-transport-runtime-2.2.5\AndroidManifest.xml:27:13-117
+247            android:exported="false"
+247-->[com.google.android.datatransport:transport-runtime:2.2.5] C:\Users\MARIO\.gradle\caches\transforms-3\f4717bebe0cfb151c05a1f0a35592bbd\transformed\jetified-transport-runtime-2.2.5\AndroidManifest.xml:28:13-37
+248            android:permission="android.permission.BIND_JOB_SERVICE" >
+248-->[com.google.android.datatransport:transport-runtime:2.2.5] C:\Users\MARIO\.gradle\caches\transforms-3\f4717bebe0cfb151c05a1f0a35592bbd\transformed\jetified-transport-runtime-2.2.5\AndroidManifest.xml:29:13-69
+249        </service>
+250
+251        <receiver
+251-->[com.google.android.datatransport:transport-runtime:2.2.5] C:\Users\MARIO\.gradle\caches\transforms-3\f4717bebe0cfb151c05a1f0a35592bbd\transformed\jetified-transport-runtime-2.2.5\AndroidManifest.xml:32:9-34:40
+252            android:name="com.google.android.datatransport.runtime.scheduling.jobscheduling.AlarmManagerSchedulerBroadcastReceiver"
+252-->[com.google.android.datatransport:transport-runtime:2.2.5] C:\Users\MARIO\.gradle\caches\transforms-3\f4717bebe0cfb151c05a1f0a35592bbd\transformed\jetified-transport-runtime-2.2.5\AndroidManifest.xml:33:13-132
+253            android:exported="false" />
+253-->[com.google.android.datatransport:transport-runtime:2.2.5] C:\Users\MARIO\.gradle\caches\transforms-3\f4717bebe0cfb151c05a1f0a35592bbd\transformed\jetified-transport-runtime-2.2.5\AndroidManifest.xml:34:13-37
+254
+255        <activity
+255-->[com.journeyapps:zxing-android-embedded:4.3.0] C:\Users\MARIO\.gradle\caches\transforms-3\4672d25836730679b75344d00501e79e\transformed\jetified-zxing-android-embedded-4.3.0\AndroidManifest.xml:47:9-53:63
+256            android:name="com.journeyapps.barcodescanner.CaptureActivity"
+256-->[com.journeyapps:zxing-android-embedded:4.3.0] C:\Users\MARIO\.gradle\caches\transforms-3\4672d25836730679b75344d00501e79e\transformed\jetified-zxing-android-embedded-4.3.0\AndroidManifest.xml:48:13-74
+257            android:clearTaskOnLaunch="true"
+257-->[com.journeyapps:zxing-android-embedded:4.3.0] C:\Users\MARIO\.gradle\caches\transforms-3\4672d25836730679b75344d00501e79e\transformed\jetified-zxing-android-embedded-4.3.0\AndroidManifest.xml:49:13-45
+258            android:screenOrientation="sensorLandscape"
+258-->[com.journeyapps:zxing-android-embedded:4.3.0] C:\Users\MARIO\.gradle\caches\transforms-3\4672d25836730679b75344d00501e79e\transformed\jetified-zxing-android-embedded-4.3.0\AndroidManifest.xml:50:13-56
+259            android:stateNotNeeded="true"
+259-->[com.journeyapps:zxing-android-embedded:4.3.0] C:\Users\MARIO\.gradle\caches\transforms-3\4672d25836730679b75344d00501e79e\transformed\jetified-zxing-android-embedded-4.3.0\AndroidManifest.xml:51:13-42
+260            android:theme="@style/zxing_CaptureTheme"
+260-->[com.journeyapps:zxing-android-embedded:4.3.0] C:\Users\MARIO\.gradle\caches\transforms-3\4672d25836730679b75344d00501e79e\transformed\jetified-zxing-android-embedded-4.3.0\AndroidManifest.xml:52:13-54
+261            android:windowSoftInputMode="stateAlwaysHidden" />
+261-->[com.journeyapps:zxing-android-embedded:4.3.0] C:\Users\MARIO\.gradle\caches\transforms-3\4672d25836730679b75344d00501e79e\transformed\jetified-zxing-android-embedded-4.3.0\AndroidManifest.xml:53:13-60
+262    </application>
+263
+264</manifest>

@@ -1,0 +1,15 @@
+com.github.contactlutforrahman.flutter_qr_bar_scanner-core-1.6.0-0 C:\Users\MARIO\.gradle\caches\transforms-3\1141b72fb8be4e566e7814849b1aa3a2\transformed\core-1.6.0\res
+com.github.contactlutforrahman.flutter_qr_bar_scanner-jetified-window-1.0.0-beta04-1 C:\Users\MARIO\.gradle\caches\transforms-3\40ff8c014bc3b03149787e1d45a42dea\transformed\jetified-window-1.0.0-beta04\res
+com.github.contactlutforrahman.flutter_qr_bar_scanner-jetified-annotation-experimental-1.1.0-2 C:\Users\MARIO\.gradle\caches\transforms-3\a6362f1fb79a6245a27920bb99ff99c3\transformed\jetified-annotation-experimental-1.1.0\res
+com.github.contactlutforrahman.flutter_qr_bar_scanner-jetified-play-services-base-17.4.0-3 C:\Users\MARIO\.gradle\caches\transforms-3\c3f1645742c1c2fb551fe35628de611b\transformed\jetified-play-services-base-17.4.0\res
+com.github.contactlutforrahman.flutter_qr_bar_scanner-jetified-play-services-basement-17.4.0-4 C:\Users\MARIO\.gradle\caches\transforms-3\cf60bcdbb4548345f55af2efa7f35e66\transformed\jetified-play-services-basement-17.4.0\res
+com.github.contactlutforrahman.flutter_qr_bar_scanner-jetified-window-java-1.0.0-beta04-5 C:\Users\MARIO\.gradle\caches\transforms-3\ed438543a8e9ffa856a2b095c92f0ea3\transformed\jetified-window-java-1.0.0-beta04\res
+com.github.contactlutforrahman.flutter_qr_bar_scanner-main-6 C:\Users\MARIO\AppData\Local\Pub\Cache\hosted\pub.dev\flutter_qr_bar_scanner-3.0.2\android\src\main\res
+com.github.contactlutforrahman.flutter_qr_bar_scanner-release-7 C:\Users\MARIO\AppData\Local\Pub\Cache\hosted\pub.dev\flutter_qr_bar_scanner-3.0.2\android\src\release\res
+com.github.contactlutforrahman.flutter_qr_bar_scanner-pngs-8 D:\GP\Project\ev_charging_station_finder_1_0\build\flutter_qr_bar_scanner\generated\res\pngs\release
+com.github.contactlutforrahman.flutter_qr_bar_scanner-resValues-9 D:\GP\Project\ev_charging_station_finder_1_0\build\flutter_qr_bar_scanner\generated\res\resValues\release
+com.github.contactlutforrahman.flutter_qr_bar_scanner-rs-10 D:\GP\Project\ev_charging_station_finder_1_0\build\flutter_qr_bar_scanner\generated\res\rs\release
+com.github.contactlutforrahman.flutter_qr_bar_scanner-mergeReleaseResources-11 D:\GP\Project\ev_charging_station_finder_1_0\build\flutter_qr_bar_scanner\intermediates\incremental\release\mergeReleaseResources\merged.dir
+com.github.contactlutforrahman.flutter_qr_bar_scanner-mergeReleaseResources-12 D:\GP\Project\ev_charging_station_finder_1_0\build\flutter_qr_bar_scanner\intermediates\incremental\release\mergeReleaseResources\stripped.dir
+com.github.contactlutforrahman.flutter_qr_bar_scanner-merged_res-13 D:\GP\Project\ev_charging_station_finder_1_0\build\flutter_qr_bar_scanner\intermediates\merged_res\release
+com.github.contactlutforrahman.flutter_qr_bar_scanner-packaged_res-14 D:\GP\Project\ev_charging_station_finder_1_0\build\native_device_orientation\intermediates\packaged_res\release

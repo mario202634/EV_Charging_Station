@@ -1,0 +1,14 @@
+[
+    {
+        "merged": "com.github.contactlutforrahman.flutter_qr_bar_scanner-merged_res-12:/color/common_google_signin_btn_text_light.xml",
+        "source": "com.github.contactlutforrahman.flutter_qr_bar_scanner-jetified-play-services-base-17.4.0-3:/color/common_google_signin_btn_text_light.xml"
+    },
+    {
+        "merged": "com.github.contactlutforrahman.flutter_qr_bar_scanner-merged_res-12:/color/common_google_signin_btn_tint.xml",
+        "source": "com.github.contactlutforrahman.flutter_qr_bar_scanner-jetified-play-services-base-17.4.0-3:/color/common_google_signin_btn_tint.xml"
+    },
+    {
+        "merged": "com.github.contactlutforrahman.flutter_qr_bar_scanner-merged_res-12:/color/common_google_signin_btn_text_dark.xml",
+        "source": "com.github.contactlutforrahman.flutter_qr_bar_scanner-jetified-play-services-base-17.4.0-3:/color/common_google_signin_btn_text_dark.xml"
+    }
+]
